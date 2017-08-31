@@ -1,0 +1,66 @@
+/* CSS allows you to give your page style (colors, shapes, fonts, etc.)
+You can apply CSS elements to entire HTML classes.*/
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+h1 {
+    background-image: url("images/Tomatoes.jpg");
+    background-color: red;
+    color: white;
+    font-size: 52px;
+    font-family: Helvetica;
+    text-align: center;
+    padding: 40px;
+    margin: 0;
+}
+.myPage {
+    display: -webkit-flex;
+    display: flex;
+    font-size: 14px;
+}
+.recipes {
+    max-width: 70%;
+}
+.recipeBox {
+    max-width: 100%;
+    display: flex;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+.pictureBox {
+    max-width: 30%;
+    margin: 40px 0px 0px 0px;
+}
+.descriptionBox {
+    max-width: 70%;
+    margin: 20px 0px 0px 40px;
+}
+img.icon {
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+}
+.aboutMe {
+    position: absolute;
+    right: 0px;
+    max-width: 20%;
+    padding: 20px;
+    margin: 0px 8px 0px 0px;
+    /* how to make this fitting automatically with h1 box? */
+    
+    border-left: medium solid green;
+    background-color: rgba(0, 255, 0, 0.2);
+}
+.aboutMeText {
+    margin: 20px 0px 0px 0px;
+}
+.myPicBox {
+    max-width: 40%;
+}
